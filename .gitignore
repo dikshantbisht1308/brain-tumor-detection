@@ -1,0 +1,38 @@
+# Ignore datasets and images
+data/
+*.jpg
+*.jpeg
+*.png
+*.mp4
+
+# Ignore Model Weights
+models/
+runs/
+*.pt
+*.onnx
+
+# Ignore Python Cache and Environments
+__pycache__/
+*.pyc
+.env
+venv/
+.venv
+
+# Datasets
+data/raw/
+
+# Model Weights and Run Logs
+runs/
+notebooks/runs/
+
+# Python Virtual Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# OS hidden files
+.DS_Store/
